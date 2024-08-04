@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: #173B45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: #fff;
+    font-size:  1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.current_page{
+    text-decoration: underline;
+    color: #B43F3F;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #B43F3F;
+}
+
+.hero {
+    background: #F8EDED;
+}
+
+.hero_container{
+    height: 95vh;
+    width: 100%;
+    top: 50%;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.left {
+    justify-content: center;
+    color: #000;
+    padding: 0 2rem;
+}
+
+.left h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.left p {
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.left h2 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.button_services {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+button {
+    width: fit-content;
+    padding: 1rem;
+    text-align: center;
+    margin: 20px 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    background: #B43F3F;
+    color: #000000;
+    cursor: pointer;
+}
